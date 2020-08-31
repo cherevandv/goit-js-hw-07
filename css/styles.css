@@ -63,7 +63,7 @@ section {
     transition-duration: 0.5s;
 }
 .task-02 li:hover:before {
-    color: #3a7742;
+    color: rgb(58, 119, 66);
 }    
 .position {
   display: flex;
@@ -84,3 +84,53 @@ section {
     filter: grayscale(0%);
     box-shadow: 0 0 5px 2px #3a7742;
 }
+#counter{
+display: flex;
+align-items: baseline;
+}
+#counter button{
+    width:50px;
+    height: 30px;
+    padding: 4px 6px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    border-radius: 4px;
+    display:block;
+    text-align:center;
+    font-weight: 700;
+    outline: none;
+}
+#counter button:first-of-type{
+    color:rgb(116, 5, 5);
+
+}
+#counter button:first-of-type:hover, #counter button:first-of-type:focus{
+    border-color:rgb(116, 5, 5);
+    box-shadow: 0 1px 1px rgba(116, 5, 5, 0.075) inset, 0 0 8px rgba(247, 62, 62, 0.6);
+}
+
+#counter button:last-of-type{
+    color: rgb(16, 46, 19);
+}
+#counter button:last-of-type:hover, #counter button:last-of-type:focus{
+    border-color:rgb(58, 119, 66);
+    box-shadow: 0 1px 1px rgba(16, 46, 19, 0.075) inset, 0 0 8px rgba(58, 119, 662, 0.6);
+}
+.task-04 span{
+    margin: 0 20px;
+    font-weight: 700;
+}
+
+#validation-input {
+    border: 3px solid #bdbdbd;
+  }
+  
+  #validation-input.valid {
+    border-color: #4caf50;
+  }
+  
+  #validation-input.invalid {
+    border-color: #f44336;
+  }
