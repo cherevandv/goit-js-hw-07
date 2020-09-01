@@ -22,13 +22,3 @@ const createItemList = (array, list) => {
 };
 
 console.log(createItemList(ingredients, ingredientsList));
-
-//через forEach:
-// const createItemList = (array, list)=>{
-// array.forEach(item => {
-//       const listItem = document.createElement("li");
-//       listItem.textContent=item;
-//       list.appendChild(listItem);
-//     });
-//     return list;
-// };
